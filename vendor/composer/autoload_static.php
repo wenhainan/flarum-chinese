@@ -80,6 +80,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'W' => 
         array (
             'Whoops\\' => 7,
+            'Webmozart\\Assert\\' => 17,
         ),
         'V' => 
         array (
@@ -188,7 +189,9 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\Upload\\' => 11,
+            'FoF\\Sitemap\\' => 12,
             'FoF\\Links\\' => 10,
+            'FoF\\Console\\' => 12,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
             'Flarum\\Subscriptions\\' => 21,
@@ -221,6 +224,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         ),
         'C' => 
         array (
+            'Cron\\' => 5,
             'Carbon\\' => 7,
         ),
         'B' => 
@@ -265,6 +269,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Webmozart\\Assert\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/webmozart/assert/src',
         ),
         'V17Development\\FlarumBlog\\' => 
         array (
@@ -572,9 +580,17 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         array (
             0 => __DIR__ . '/..' . '/fof/upload/src',
         ),
+        'FoF\\Sitemap\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/sitemap/src',
+        ),
         'FoF\\Links\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/links/src',
+        ),
+        'FoF\\Console\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/console/src',
         ),
         'Flarum\\Tags\\' => 
         array (
@@ -667,6 +683,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'Dflydev\\FigCookies\\' => 
         array (
             0 => __DIR__ . '/..' . '/dflydev/fig-cookies/src/Dflydev/FigCookies',
+        ),
+        'Cron\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
         'Carbon\\' => 
         array (

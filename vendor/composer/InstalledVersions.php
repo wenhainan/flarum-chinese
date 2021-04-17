@@ -152,6 +152,15 @@ private static $installed = array (
       ),
       'reference' => 'e864bbf5904cb8f5bb334f99209b48018522f042',
     ),
+    'dragonmantank/cron-expression' => 
+    array (
+      'pretty_version' => 'v3.1.0',
+      'version' => '3.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c',
+    ),
     'egulias/email-validator' => 
     array (
       'pretty_version' => '2.1.25',
@@ -187,6 +196,13 @@ private static $installed = array (
       array (
       ),
       'reference' => 'd501fd2658d55491a2295ff600ae5978eaad7403',
+    ),
+    'flagrow/sitemap' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
     ),
     'flagrow/upload' => 
     array (
@@ -357,6 +373,15 @@ private static $installed = array (
       ),
       'reference' => '2582358a00e6edbce847336276406ae80a3a6106',
     ),
+    'fof/console' => 
+    array (
+      'pretty_version' => '0.7.0',
+      'version' => '0.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '90d944ee596c48efe5f5c9e21c4d307daea63896',
+    ),
     'fof/links' => 
     array (
       'pretty_version' => '0.6.0',
@@ -365,6 +390,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '3aba6d3d04edf6cdb1dbf2a76e625ff2d19dcddc',
+    ),
+    'fof/sitemap' => 
+    array (
+      'pretty_version' => '0.7.0',
+      'version' => '0.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'dc6ae8bf2fdf83832d9ff009bf8ec3aaee472a0e',
     ),
     'fof/upload' => 
     array (
@@ -741,6 +775,13 @@ private static $installed = array (
       array (
       ),
       'reference' => '2209ddd84e7ef1256b7af205d0717fb62cfc9c33',
+    ),
+    'mtdowling/cron-expression' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '^1.0',
+      ),
     ),
     'nesbot/carbon' => 
     array (
@@ -1262,6 +1303,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '80953678b19901e5165c56752d087fc11526017c',
+    ),
+    'webmozart/assert' => 
+    array (
+      'pretty_version' => '1.10.0',
+      'version' => '1.10.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6964c76c7804814a842473e0c8fd15bab0f18e25',
     ),
     'wikimedia/less.php' => 
     array (

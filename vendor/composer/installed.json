@@ -907,6 +907,70 @@
             "install-path": "../doctrine/lexer"
         },
         {
+            "name": "dragonmantank/cron-expression",
+            "version": "v3.1.0",
+            "version_normalized": "3.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dragonmantank/cron-expression.git",
+                "reference": "7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dragonmantank/cron-expression/zipball/7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c",
+                "reference": "7a8c6e56ab3ffcc538d05e8155bb42269abf1a0c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "webmozart/assert": "^1.7.0"
+            },
+            "replace": {
+                "mtdowling/cron-expression": "^1.0"
+            },
+            "require-dev": {
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12",
+                "phpstan/phpstan-webmozart-assert": "^0.12.7",
+                "phpunit/phpunit": "^7.0|^8.0|^9.0"
+            },
+            "time": "2020-11-24T19:55:57+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Cron\\": "src/Cron/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Tankersley",
+                    "email": "chris@ctankersley.com",
+                    "homepage": "https://github.com/dragonmantank"
+                }
+            ],
+            "description": "CRON for PHP: Calculate the next or previous run date and determine if a CRON expression is due",
+            "keywords": [
+                "cron",
+                "schedule"
+            ],
+            "support": {
+                "issues": "https://github.com/dragonmantank/cron-expression/issues",
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/dragonmantank",
+                    "type": "github"
+                }
+            ],
+            "install-path": "../dragonmantank/cron-expression"
+        },
+        {
             "name": "egulias/email-validator",
             "version": "2.1.25",
             "version_normalized": "2.1.25.0",
@@ -2299,6 +2363,72 @@
             "install-path": "../flarum/tags"
         },
         {
+            "name": "fof/console",
+            "version": "0.7.0",
+            "version_normalized": "0.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/console.git",
+                "reference": "90d944ee596c48efe5f5c9e21c4d307daea63896"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/console/zipball/90d944ee596c48efe5f5c9e21c4d307daea63896",
+                "reference": "90d944ee596c48efe5f5c9e21c4d307daea63896",
+                "shasum": ""
+            },
+            "require": {
+                "dragonmantank/cron-expression": "^3.1.0",
+                "flarum/core": "^0.1.0-beta.16",
+                "illuminate/console": "^8.0",
+                "illuminate/support": "^8.0",
+                "symfony/process": "~5.0"
+            },
+            "time": "2021-03-08T20:03:17+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Console\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                },
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                }
+            ],
+            "description": "Register custom commands and task scheduling into Flarum",
+            "keywords": [
+                "console",
+                "cron",
+                "cronjob",
+                "extension",
+                "flarum"
+            ],
+            "support": {
+                "issues": "https://github.com/friendsOfFlarum/console/issues",
+                "source": "https://github.com/friendsOfFlarum/console"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof",
+                    "type": "open_collective"
+                }
+            ],
+            "install-path": "../fof/console"
+        },
+        {
             "name": "fof/links",
             "version": "0.6.0",
             "version_normalized": "0.6.0.0",
@@ -2373,6 +2503,92 @@
                 }
             ],
             "install-path": "../fof/links"
+        },
+        {
+            "name": "fof/sitemap",
+            "version": "0.7.0",
+            "version_normalized": "0.7.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/sitemap.git",
+                "reference": "dc6ae8bf2fdf83832d9ff009bf8ec3aaee472a0e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/sitemap/zipball/dc6ae8bf2fdf83832d9ff009bf8ec3aaee472a0e",
+                "reference": "dc6ae8bf2fdf83832d9ff009bf8ec3aaee472a0e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-zlib": "*",
+                "flarum/core": ">=0.1.0-beta.16 <0.1.0-beta.17",
+                "fof/console": "^0.7.0"
+            },
+            "replace": {
+                "flagrow/sitemap": "*"
+            },
+            "suggest": {
+                "flarum/tags": "List tags in the sitemap",
+                "fof/pages": "List pages in the sitemap"
+            },
+            "time": "2021-03-28T02:17:50+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "FoF Sitemap",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-sitemap",
+                        "backgroundColor": "#e74c3c",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/14941"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "FoF\\Sitemap\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Clark Winkelmann",
+                    "email": "clark.winkelmann@gmail.com",
+                    "homepage": "https://clarkwinkelmann.com/"
+                },
+                {
+                    "name": "Daniël Klabbers",
+                    "email": "daniel@klabbers.email",
+                    "homepage": "http://luceos.com"
+                }
+            ],
+            "description": "Generate a sitemap",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "Sitemap",
+                "extension",
+                "flagrow",
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/14941",
+                "issues": "https://github.com/FriendsOfFlarum/sitemap/issues",
+                "source": "https://github.com/FriendsOfFlarum/sitemap"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "install-path": "../fof/sitemap"
         },
         {
             "name": "fof/upload",
@@ -8701,6 +8917,67 @@
                 }
             ],
             "install-path": "../voku/portable-ascii"
+        },
+        {
+            "name": "webmozart/assert",
+            "version": "1.10.0",
+            "version_normalized": "1.10.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/webmozarts/assert.git",
+                "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/6964c76c7804814a842473e0c8fd15bab0f18e25",
+                "reference": "6964c76c7804814a842473e0c8fd15bab0f18e25",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.2 || ^8.0",
+                "symfony/polyfill-ctype": "^1.8"
+            },
+            "conflict": {
+                "phpstan/phpstan": "<0.12.20",
+                "vimeo/psalm": "<4.6.1 || 4.6.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.5.13"
+            },
+            "time": "2021-03-09T10:59:23+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.10-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Webmozart\\Assert\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bernhard Schussek",
+                    "email": "bschussek@gmail.com"
+                }
+            ],
+            "description": "Assertions to validate method input/output with nice error messages.",
+            "keywords": [
+                "assert",
+                "check",
+                "validate"
+            ],
+            "support": {
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.10.0"
+            },
+            "install-path": "../webmozart/assert"
         },
         {
             "name": "wikimedia/less.php",
