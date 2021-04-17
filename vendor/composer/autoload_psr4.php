@@ -15,6 +15,7 @@ return array(
     'axy\\codecs\\base64vlq\\' => array($vendorDir . '/axy/codecs-base64vlq'),
     'axy\\backtrace\\' => array($vendorDir . '/axy/backtrace'),
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
+    'V17Development\\FlarumBlog\\' => array($vendorDir . '/v17development/flarum-blog/src'),
     'Tobscure\\JsonApi\\' => array($vendorDir . '/tobscure/json-api/src'),
     'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),
     'Symfony\\Polyfill\\Php80\\' => array($vendorDir . '/symfony/polyfill-php80'),

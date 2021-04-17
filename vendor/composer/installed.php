@@ -1221,6 +1221,15 @@
       ),
       'reference' => '663d1c1299d4363758e8e440e5849134f218f45c',
     ),
+    'v17development/flarum-blog' => 
+    array (
+      'pretty_version' => 'v0.3.0',
+      'version' => '0.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0c571c8f84bf9cb45306bc985d8f0ce9e4d7eb67',
+    ),
     'voku/portable-ascii' => 
     array (
       'pretty_version' => '1.5.6',

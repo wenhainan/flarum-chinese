@@ -8563,6 +8563,69 @@
             "install-path": "../tobscure/json-api"
         },
         {
+            "name": "v17development/flarum-blog",
+            "version": "v0.3.0",
+            "version_normalized": "0.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/v17development/flarum-blog.git",
+                "reference": "0c571c8f84bf9cb45306bc985d8f0ce9e4d7eb67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/v17development/flarum-blog/zipball/0c571c8f84bf9cb45306bc985d8f0ce9e4d7eb67",
+                "reference": "0c571c8f84bf9cb45306bc985d8f0ce9e4d7eb67",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "flarum/core": "^0.1.0-beta.16",
+                "flarum/lock": "^0.1.0-beta.16",
+                "flarum/tags": "^0.1.0-beta.16"
+            },
+            "suggest": {
+                "v17development/flarum-seo": "Adds Flarum SEO and Social media tags"
+            },
+            "time": "2021-03-24T21:49:09+00:00",
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "Blog",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-blog",
+                        "backgroundColor": "#2dc0e6",
+                        "color": "#ffffff"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "V17Development\\FlarumBlog\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "V17 Development",
+                    "email": "info@v17.dev"
+                }
+            ],
+            "description": "Adds a blog section to your forum",
+            "homepage": "https://v17.dev/projects/flarum-blog",
+            "support": {
+                "docs": "https://community.v17.dev/knowledgebase/category/flarum-blog",
+                "forum": "https://discuss.flarum.org/d/25392",
+                "issues": "https://github.com/v17development/flarum-blog/issues",
+                "source": "https://github.com/v17development/flarum-blog"
+            },
+            "install-path": "../v17development/flarum-blog"
+        },
+        {
             "name": "voku/portable-ascii",
             "version": "1.5.6",
             "version_normalized": "1.5.6.0",

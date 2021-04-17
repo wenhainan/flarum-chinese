@@ -81,6 +81,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         array (
             'Whoops\\' => 7,
         ),
+        'V' => 
+        array (
+            'V17Development\\FlarumBlog\\' => 26,
+        ),
         'T' => 
         array (
             'Tobscure\\JsonApi\\' => 17,
@@ -261,6 +265,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'V17Development\\FlarumBlog\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/v17development/flarum-blog/src',
         ),
         'Tobscure\\JsonApi\\' => 
         array (
