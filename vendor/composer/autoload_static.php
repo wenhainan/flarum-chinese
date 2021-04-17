@@ -79,6 +79,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         ),
         'W' => 
         array (
+            'Wohali\\OAuth2\\Client\\' => 21,
             'Whoops\\' => 7,
             'Webmozart\\Assert\\' => 17,
         ),
@@ -138,6 +139,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'O' => 
         array (
             'Opis\\Closure\\' => 13,
+            'Omines\\OAuth2\\Client\\' => 21,
         ),
         'M' => 
         array (
@@ -149,6 +151,8 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         ),
         'L' => 
         array (
+            'League\\OAuth2\\Client\\' => 21,
+            'League\\OAuth1\\Client\\' => 21,
             'League\\MimeTypeDetection\\' => 25,
             'League\\Flysystem\\' => 17,
             'League\\CommonMark\\' => 18,
@@ -192,8 +196,11 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\Upload\\' => 11,
             'FoF\\Sitemap\\' => 12,
+            'FoF\\OAuth\\' => 10,
             'FoF\\Links\\' => 10,
+            'FoF\\Extend\\' => 11,
             'FoF\\Console\\' => 12,
+            'FoF\\Components\\' => 15,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
             'Flarum\\Subscriptions\\' => 21,
@@ -267,6 +274,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'axy\\backtrace\\' => 
         array (
             0 => __DIR__ . '/..' . '/axy/backtrace',
+        ),
+        'Wohali\\OAuth2\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wohali/oauth2-discord-new/src',
         ),
         'Whoops\\' => 
         array (
@@ -434,6 +445,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         array (
             0 => __DIR__ . '/..' . '/opis/closure/src',
         ),
+        'Omines\\OAuth2\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/omines/oauth2-gitlab/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -455,6 +470,18 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'MatthiasMullie\\Minify\\' => 
         array (
             0 => __DIR__ . '/..' . '/matthiasmullie/minify/src',
+        ),
+        'League\\OAuth2\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth2-client/src',
+            1 => __DIR__ . '/..' . '/league/oauth2-linkedin/src',
+            2 => __DIR__ . '/..' . '/league/oauth2-google/src',
+            3 => __DIR__ . '/..' . '/league/oauth2-github/src',
+            4 => __DIR__ . '/..' . '/league/oauth2-facebook/src',
+        ),
+        'League\\OAuth1\\Client\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/oauth1-client/src',
         ),
         'League\\MimeTypeDetection\\' => 
         array (
@@ -594,13 +621,25 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         array (
             0 => __DIR__ . '/..' . '/fof/sitemap/src',
         ),
+        'FoF\\OAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/oauth/src',
+        ),
         'FoF\\Links\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/links/src',
         ),
+        'FoF\\Extend\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/extend/src',
+        ),
         'FoF\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/console/src',
+        ),
+        'FoF\\Components\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/components/src',
         ),
         'Flarum\\Tags\\' => 
         array (

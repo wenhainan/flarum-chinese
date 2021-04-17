@@ -40,6 +40,7 @@
         "flarum/suspend": "^0.1.0",
         "flarum/tags": "^0.1.0",
         "fof/links": "^0.6.0",
+        "fof/oauth": "^0.3.0",
         "fof/sitemap": "^0.7.0",
         "fof/upload": "^0.14.0",
         "itnt/flarum-uitab": "^0.3.3",

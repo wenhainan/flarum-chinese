@@ -25,6 +25,8 @@ https://gitee.com/wenhainande/flarum/repository/archive/master.zip
 * 中文语言包
 * sitemap.xml网站地图插件
 * 移动端底部导航栏
+* 图片放大灯箱插件加入
+* 第三方登录 fof/oauth插件加入
 
 
 ## 环境要求

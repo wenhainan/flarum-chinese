@@ -196,6 +196,27 @@
       ),
       'reference' => '6331da4a2aa77b1435cdb1b078f6c2c9683aa07a',
     ),
+    'flarum/auth-facebook' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'flarum/auth-github' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'flarum/auth-twitter' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
     'flarum/bbcode' => 
     array (
       'pretty_version' => 'v0.1.0-beta.16',
@@ -349,6 +370,29 @@
       ),
       'reference' => '2582358a00e6edbce847336276406ae80a3a6106',
     ),
+    'fof/auth-discord' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'fof/auth-gitlab' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'fof/components' => 
+    array (
+      'pretty_version' => '0.2.0',
+      'version' => '0.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '395c8b1729421ebda22aa46c9de2667b9e44e97e',
+    ),
     'fof/console' => 
     array (
       'pretty_version' => '0.7.0',
@@ -358,6 +402,15 @@
       ),
       'reference' => '90d944ee596c48efe5f5c9e21c4d307daea63896',
     ),
+    'fof/extend' => 
+    array (
+      'pretty_version' => '0.3.1',
+      'version' => '0.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9fc079d3b1c4c98c87fb252b4df12d5b2033458e',
+    ),
     'fof/links' => 
     array (
       'pretty_version' => '0.6.0',
@@ -366,6 +419,15 @@
       array (
       ),
       'reference' => '3aba6d3d04edf6cdb1dbf2a76e625ff2d19dcddc',
+    ),
+    'fof/oauth' => 
+    array (
+      'pretty_version' => '0.3.0',
+      'version' => '0.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4f96747caaa84c3235ac690854698ec8e7d1dee9',
     ),
     'fof/sitemap' => 
     array (
@@ -691,7 +753,75 @@
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
     ),
+    'league/oauth1-client' => 
+    array (
+      'pretty_version' => 'v1.9.0',
+      'version' => '1.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1e7e6be2dc543bf466236fb171e5b20e1b06aee6',
+    ),
+    'league/oauth2-client' => 
+    array (
+      'pretty_version' => '2.6.0',
+      'version' => '2.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'badb01e62383430706433191b82506b6df24ad98',
+    ),
+    'league/oauth2-facebook' => 
+    array (
+      'pretty_version' => '2.0.5',
+      'version' => '2.0.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '14cead7580cab8caace67f5a61ea5d2a8ff213eb',
+    ),
+    'league/oauth2-github' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e63d64f3ec167c09232d189c6b0c397458a99357',
+    ),
+    'league/oauth2-google' => 
+    array (
+      'pretty_version' => '3.0.4',
+      'version' => '3.0.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6b79441f244040760bed5fdcd092a2bda7cf34c6',
+    ),
+    'league/oauth2-linkedin' => 
+    array (
+      'pretty_version' => '5.1.2',
+      'version' => '5.1.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f9ab661ca37884067ca286412b6c17304d3c2fac',
+    ),
     'littlegolden/flarum-lang-simplified-chinese' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'luuhai48/oauth-google' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
+    'luuhai48/oauth-linkedin' => 
     array (
       'replaced' => 
       array (
@@ -786,6 +916,15 @@
       ),
       'reference' => '31fa86924556b80735f98b294a7ffdfb26789f22',
     ),
+    'omines/oauth2-gitlab' => 
+    array (
+      'pretty_version' => '3.4.0',
+      'version' => '3.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0c37361c54fae71a85350c445bda1834db5859af',
+    ),
     'opis/closure' => 
     array (
       'pretty_version' => '3.6.2',
@@ -794,6 +933,15 @@
       array (
       ),
       'reference' => '06e2ebd25f2869e54a306dda991f7db58066f7f6',
+    ),
+    'paragonie/random_compat' => 
+    array (
+      'pretty_version' => 'v9.99.100',
+      'version' => '9.99.100.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '996434e5492cb4c3edcb9168db6fbb1359ef965a',
     ),
     'phenomlab/fancybox-wrapper' => 
     array (
@@ -1315,6 +1463,15 @@
       array (
       ),
       'reference' => 'a486d78b9bd16b72f237fc6093aa56d69ce8bd13',
+    ),
+    'wohali/oauth2-discord-new' => 
+    array (
+      'pretty_version' => '1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0dcb5059cded358f55ae566de9621652cf8542c6',
     ),
     'zendframework/zend-diactoros' => 
     array (
