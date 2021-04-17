@@ -41,8 +41,8 @@ return array(
     'def43f6c87e4f8dfd0c9e1b1bab14fe8' => $vendorDir . '/symfony/polyfill-iconv/bootstrap.php',
     '2c102faa651ef8ea5874edb585946bce' => $vendorDir . '/swiftmailer/swiftmailer/lib/swift_required.php',
     'ef65a1626449d89d0811cf9befce46f0' => $vendorDir . '/illuminate/events/functions.php',
-    '538ca81a9a966a6716601ecf48f4eaef' => $vendorDir . '/opis/closure/functions.php',
     'e39a8b23c42d4e1452234d762b03835a' => $vendorDir . '/ramsey/uuid/src/functions.php',
+    '538ca81a9a966a6716601ecf48f4eaef' => $vendorDir . '/opis/closure/functions.php',
     '3f8ee9969da604d0f15c841b77b11450' => $vendorDir . '/laminas/laminas-stratigility/src/functions/double-pass-middleware.php',
     'ee5523a5d51d6d51030227439db1ef74' => $vendorDir . '/laminas/laminas-stratigility/src/functions/host.php',
     '5f6e29ca023a0bdefa2476adb465d527' => $vendorDir . '/laminas/laminas-stratigility/src/functions/middleware.php',
@@ -54,4 +54,6 @@ return array(
     '253c157292f75eb38082b5acb06f3f01' => $vendorDir . '/nikic/fast-route/src/functions.php',
     '84245cb95409c51c4ae97f8e59da883a' => $vendorDir . '/flarum/core/src/helpers.php',
     'b71cbb215bc01dc90edaec1c3a55b3ef' => $vendorDir . '/flarum/core/src/TranslatorInterface.php',
+    'c964ee0ededf28c96ebd9db5099ef910' => $vendorDir . '/guzzlehttp/promises/src/functions_include.php',
+    '37a3dc5111fe8f707ab4c132ef1dbc62' => $vendorDir . '/guzzlehttp/guzzle/src/functions_include.php',
 );

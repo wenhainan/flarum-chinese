@@ -188,6 +188,13 @@ private static $installed = array (
       ),
       'reference' => 'd501fd2658d55491a2295ff600ae5978eaad7403',
     ),
+    'flagrow/upload' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
     'flarum/approval' => 
     array (
       'pretty_version' => 'v0.1.0-beta.16',
@@ -350,6 +357,15 @@ private static $installed = array (
       ),
       'reference' => '2582358a00e6edbce847336276406ae80a3a6106',
     ),
+    'fof/upload' => 
+    array (
+      'pretty_version' => '0.14.0',
+      'version' => '0.14.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6051bbfe30329be03fcc0b87420e7fa6c5fb393b',
+    ),
     'franzl/whoops-middleware' => 
     array (
       'pretty_version' => '2.0.0',
@@ -358,6 +374,24 @@ private static $installed = array (
       array (
       ),
       'reference' => '71d75c5fff75587d6194a051d510a9eca0e3a047',
+    ),
+    'guzzlehttp/guzzle' => 
+    array (
+      'pretty_version' => '7.3.0',
+      'version' => '7.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7008573787b430c1c1f650e3722d9bba59967628',
+    ),
+    'guzzlehttp/promises' => 
+    array (
+      'pretty_version' => '1.4.1',
+      'version' => '1.4.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8e7d04f1f6450fef59366c399cfad4b9383aa30d',
     ),
     'guzzlehttp/psr7' => 
     array (
@@ -758,6 +792,22 @@ private static $installed = array (
         0 => '1.0',
       ),
     ),
+    'psr/http-client' => 
+    array (
+      'pretty_version' => '1.0.1',
+      'version' => '1.0.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2dfb5f6c5eff0e91e20e913f8c5452ed95b86621',
+    ),
+    'psr/http-client-implementation' => 
+    array (
+      'provided' => 
+      array (
+        0 => '1.0',
+      ),
+    ),
     'psr/http-factory' => 
     array (
       'pretty_version' => '1.0.1',
@@ -903,6 +953,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'e2d5fba85a92a62b477957943de3aecc0cc4d023',
+    ),
+    'softcreatr/php-mime-detector' => 
+    array (
+      'pretty_version' => '3.2.0',
+      'version' => '3.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '61b5fc1454e248a28a545465fc02d695044ba8c3',
     ),
     'swiftmailer/swiftmailer' => 
     array (
