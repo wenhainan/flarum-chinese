@@ -24,6 +24,10 @@
 本仓库下载地址: https://gitee.com/wenhainande/flarum/repository/archive/master.zip
 
 
+## 环境要求
+* PHP7.3+
+* Mysql5.6+
+
 ## Nginx伪静态
 ```
 location / {  
