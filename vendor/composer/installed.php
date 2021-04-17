@@ -333,6 +333,15 @@
       ),
       'reference' => '2582358a00e6edbce847336276406ae80a3a6106',
     ),
+    'fof/links' => 
+    array (
+      'pretty_version' => '0.6.0',
+      'version' => '0.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3aba6d3d04edf6cdb1dbf2a76e625ff2d19dcddc',
+    ),
     'fof/upload' => 
     array (
       'pretty_version' => '0.14.0',
@@ -929,6 +938,13 @@
       array (
       ),
       'reference' => 'e2d5fba85a92a62b477957943de3aecc0cc4d023',
+    ),
+    'sijad/flarum-ext-links' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
     ),
     'softcreatr/php-mime-detector' => 
     array (

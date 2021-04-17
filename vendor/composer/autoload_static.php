@@ -184,6 +184,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         array (
             'Franzl\\Middleware\\Whoops\\' => 25,
             'FoF\\Upload\\' => 11,
+            'FoF\\Links\\' => 10,
             'Flarum\\Tags\\' => 12,
             'Flarum\\Suspend\\' => 15,
             'Flarum\\Subscriptions\\' => 21,
@@ -562,6 +563,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'FoF\\Upload\\' => 
         array (
             0 => __DIR__ . '/..' . '/fof/upload/src',
+        ),
+        'FoF\\Links\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fof/links/src',
         ),
         'Flarum\\Tags\\' => 
         array (

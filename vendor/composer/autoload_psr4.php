@@ -89,6 +89,7 @@ return array(
     'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
     'Franzl\\Middleware\\Whoops\\' => array($vendorDir . '/franzl/whoops-middleware/src'),
     'FoF\\Upload\\' => array($vendorDir . '/fof/upload/src'),
+    'FoF\\Links\\' => array($vendorDir . '/fof/links/src'),
     'Flarum\\Tags\\' => array($vendorDir . '/flarum/tags/src'),
     'Flarum\\Suspend\\' => array($vendorDir . '/flarum/suspend/src'),
     'Flarum\\Subscriptions\\' => array($vendorDir . '/flarum/subscriptions/src'),
