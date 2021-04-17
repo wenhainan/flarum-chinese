@@ -43,6 +43,7 @@
         "fof/sitemap": "^0.7.0",
         "fof/upload": "^0.14.0",
         "itnt/flarum-uitab": "^0.3.3",
+        "phenomlab/fancybox-wrapper": "^0.7.0",
         "v17development/flarum-blog": "^0.3.0"
     },
     "config": {

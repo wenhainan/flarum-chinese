@@ -133,6 +133,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
             'Psr\\Http\\Client\\' => 16,
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
+            'Phenomlan\\Fancybox\\' => 19,
         ),
         'O' => 
         array (
@@ -424,6 +425,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Phenomlan\\Fancybox\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phenomlab/fancybox-wrapper/src',
         ),
         'Opis\\Closure\\' => 
         array (

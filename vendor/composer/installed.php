@@ -795,6 +795,15 @@
       ),
       'reference' => '06e2ebd25f2869e54a306dda991f7db58066f7f6',
     ),
+    'phenomlab/fancybox-wrapper' => 
+    array (
+      'pretty_version' => '0.7',
+      'version' => '0.7.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '51f287b62363bd54017f75d6c28e673bf1b08fd6',
+    ),
     'psr/container' => 
     array (
       'pretty_version' => '1.1.1',
