@@ -23,6 +23,7 @@ https://gitee.com/wenhainande/flarum/repository/archive/master.zip
 * 博客组件
 * 文件上传 需要安装PHP扩展fileinfo,exif,务必要安装哦(小内存机器可能安装时间比较久,请耐心等待)
 * 中文语言包
+* sitemap.xml网站地图插件
 
 
 ## 环境要求
