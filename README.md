@@ -7,39 +7,31 @@
 <a href="https://packagist.org/packages/flarum/core"><img src="https://poser.pugx.org/flarum/core/license.svg" alt="License"></a>
 </p>
 
-## About Flarum
+## 关于 Flarum
 
-**[Flarum](https://flarum.org/) is a delightfully simple discussion platform for your website.** It's fast and easy to use, with all the features you need to run a successful community. It is designed to be:
+**[Flarum](https://flarum.net.cn/)  是一款非常简洁的开源论坛软件。它响应快速、简便易用，拥有打造一片成功的社区所需的所有功能。**
 
-* **Fast and simple.** No clutter, no bloat, no complex dependencies. Flarum is built with PHP so it’s quick and easy to deploy. The interface is powered by Mithril, a performant JavaScript framework with a tiny footprint.
+* **高效而简洁**  不杂乱不臃肿，没有复杂的依赖关系。Flarum 使用 PHP 构建，因此很容易被部署。同时界面采用高性能 JavaScript 框架 Mithril (opens new window)，因此占用空间很小。
 
-* **Beautiful and responsive.** This is forum software for humans. Flarum is carefully designed to be consistent and intuitive across platforms, out-of-the-box.
+* **漂亮、响应式。**  专为人设计的论坛程序。Flarum 经过精心设计，完美支持跨平台、开箱即用。
 
-* **Powerful and extensible.** Customize, extend, and integrate Flarum to suit your community. Flarum’s architecture is amazingly flexible, with a powerful Extension API.
+* **强大、可扩展。** 您可以客制化、扩展或集成 Flarum 以满足您的社区需求。Flarum 拥有非常全面、强大的 扩展 API (opens new window)，她的架构及其灵活。
 
 ![screenshot](https://flarum.org/assets/img/home-screenshot.png)
 
-## Installation
+## composer方式安装
 
-You must have SSH access to a server with **PHP 7.2+** and **MySQL 5.6+**, and install [Composer](https://getcomposer.org/).
+**PHP 7.3+** and **MySQL 5.6+**, and install [Composer](https://getcomposer.org/).
 
 ```
 composer create-project flarum/flarum . --stability=beta
 ```
 
-Read the **[Installation guide](https://flarum.org/docs/install.html)** for more information. For support, refer to the [documentation](https://flarum.org/docs/), and ask questions on the [community forum](https://discuss.flarum.org/) or [Discord chat](https://flarum.org/discord/).
+请阅读 **[部署指南](https://docs.flarum.org/zh/install.html)** 获取更多信息. For support, refer to the [documentation](https://flarum.org/docs/), and ask questions on the [community forum](https://discuss.flarum.net.cn/) .
 
-## Contributing
 
-Thank you for considering contributing to Flarum! Please read the **[Contributing guide](https://flarum.org/docs/contributing.html)** to learn how you can help.
-
-This repository only holds the Flarum skeleton application. Most development happens in [flarum/core](https://github.com/flarum/core).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Flarum, please send an e-mail to [security@flarum.org](mailto:security@flarum.org). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-Flarum is open-source software licensed under the [MIT License](https://github.com/flarum/flarum/blob/master/LICENSE).
+Flarum is open-source software licensed under the [MIT License](https://gitee.com/wenhainande/flarum/blob/master/LICENSE).
 
