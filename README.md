@@ -19,6 +19,15 @@
 
 ![screenshot](https://flarum.org/assets/img/home-screenshot.png)
 
+## 直接下载安装包安装
+
+本仓库下载地址: https://gitee.com/wenhainande/flarum/repository/archive/master.zip
+
+
+## Nginx伪静态
+``
+
+
 ## composer方式安装
 
 **PHP 7.3+** and **MySQL 5.6+**, and install [Composer](https://getcomposer.org/).
