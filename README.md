@@ -12,9 +12,17 @@
 
 ![screenshot](https://flarum.org/assets/img/home-screenshot.png)
 
-## 直接下载安装包安装
+## 直接下载安装包安装(推荐)
 
-本仓库下载地址: https://gitee.com/wenhainande/flarum/repository/archive/master.zip
+### 本仓库直接下载: 
+https://gitee.com/wenhainande/flarum/repository/archive/master.zip
+
+
+## 附带必备组件
+* 导航栏
+* 博客组件
+* 文件上传
+* 中文语言包
 
 
 ## 环境要求
