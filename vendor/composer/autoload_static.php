@@ -178,6 +178,7 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
             'Illuminate\\Config\\' => 18,
             'Illuminate\\Cache\\' => 17,
             'Illuminate\\Bus\\' => 15,
+            'ITNT\\UITab\\' => 11,
         ),
         'G' => 
         array (
@@ -559,6 +560,10 @@ class ComposerStaticInit3526f79cd2f166b77df472dae65690ba
         'Illuminate\\Bus\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/bus',
+        ),
+        'ITNT\\UITab\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/itnt/flarum-uitab/src',
         ),
         'GuzzleHttp\\Psr7\\' => 
         array (

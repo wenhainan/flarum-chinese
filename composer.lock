@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cdecced4be9fdff40db4009949ae6d6d",
+    "content-hash": "05b52b978b3adeaaec25afaf73608717",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -4030,6 +4030,73 @@
                 "source": "https://github.com/Intervention/image/tree/master"
             },
             "time": "2019-11-02T09:15:47+00:00"
+        },
+        {
+            "name": "itnt/flarum-uitab",
+            "version": "v0.3.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Littlegolden/flarum-uitab.git",
+                "reference": "4e182e9895e8b99108bd5ff1e51eeea8884adf8a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Littlegolden/flarum-uitab/zipball/4e182e9895e8b99108bd5ff1e51eeea8884adf8a",
+                "reference": "4e182e9895e8b99108bd5ff1e51eeea8884adf8a",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": ">=0.1.0-beta.16 <0.1.0-beta.17"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flarum-extension": {
+                    "title": "UI Tab ",
+                    "category": "feature",
+                    "icon": {
+                        "name": "fas fa-grip-horizontal",
+                        "background": "#f8504b",
+                        "color": "#fff"
+                    }
+                },
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/22880"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ITNT\\UITab\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Golden",
+                    "email": "littlegoldenjin@gmail.com",
+                    "homepage": "https://bbs.csur.fun/u/Golden"
+                }
+            ],
+            "description": "Add a UI Tab to your Flarum.",
+            "keywords": [
+                "extension",
+                "flarum",
+                "tab",
+                "ui"
+            ],
+            "support": {
+                "issues": "https://github.com/Littlegolden/flarum-uitab/issues",
+                "source": "https://github.com/Littlegolden/flarum-uitab"
+            },
+            "funding": [
+                {
+                    "url": "https://pay.csur.fun/",
+                    "type": "website"
+                }
+            ],
+            "time": "2021-03-25T11:31:45+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",

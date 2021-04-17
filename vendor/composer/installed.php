@@ -610,6 +610,15 @@
       ),
       'reference' => 'abbf18d5ab8367f96b3205ca3c89fb2fa598c69e',
     ),
+    'itnt/flarum-uitab' => 
+    array (
+      'pretty_version' => 'v0.3.3',
+      'version' => '0.3.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '4e182e9895e8b99108bd5ff1e51eeea8884adf8a',
+    ),
     'laminas/laminas-diactoros' => 
     array (
       'pretty_version' => '2.5.1',
