@@ -1,8 +1,8 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'v0.1.0-beta.16',
-    'version' => '0.1.0.0-beta16',
+    'pretty_version' => '1.0.0+no-version-set',
+    'version' => '1.0.0.0',
     'aliases' => 
     array (
     ),
@@ -137,6 +137,15 @@
       ),
       'reference' => '0dbf5d78455d4d6a41d186da50adc1122ec066f4',
     ),
+    'ffans/lang-simplified-chinese' => 
+    array (
+      'pretty_version' => 'v0.1.0-beta.16.1',
+      'version' => '0.1.0.0-beta16.1',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '609c55790460e788378f644b3b8c36ab9c387ea5',
+    ),
     'fig/http-message-util' => 
     array (
       'pretty_version' => '1.1.5',
@@ -202,8 +211,8 @@
     ),
     'flarum/flarum' => 
     array (
-      'pretty_version' => 'v0.1.0-beta.16',
-      'version' => '0.1.0.0-beta16',
+      'pretty_version' => '1.0.0+no-version-set',
+      'version' => '1.0.0.0',
       'aliases' => 
       array (
       ),
@@ -596,6 +605,13 @@
       ),
       'reference' => '3b9dff8aaf7323590c1d2e443db701eb1f9aa0d3',
     ),
+    'littlegolden/flarum-lang-simplified-chinese' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '*',
+      ),
+    ),
     'matthiasmullie/minify' => 
     array (
       'pretty_version' => '1.3.66',
@@ -781,8 +797,8 @@
     array (
       'provided' => 
       array (
-        0 => '1.0',
-        1 => '1.0.0',
+        0 => '1.0.0',
+        1 => '1.0',
       ),
     ),
     'psr/simple-cache' => 
