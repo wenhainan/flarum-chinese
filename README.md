@@ -25,11 +25,11 @@
 
 
 ## Nginx伪静态
-`
- location / {  
-    try_files $uri $uri/ /index.php$is_args$query_string;  
-  }
-`
+```
+location / {  
+  try_files $uri $uri/ /index.php$is_args$query_string;  
+}
+```
 
 
 
