@@ -12,11 +12,6 @@
 
 ![screenshot](https://flarum.org/assets/img/home-screenshot.png)
 
-## 直接下载安装包安装(推荐)
-
-### 本仓库直接下载: 
-https://gitee.com/wenhainande/flarum/repository/archive/master.zip
-
 
 ## 附带必备组件
 * 导航栏
@@ -27,6 +22,11 @@ https://gitee.com/wenhainande/flarum/repository/archive/master.zip
 * 移动端底部导航栏
 * 图片放大灯箱插件加入
 * 第三方登录 fof/oauth插件加入
+
+## 安装
+* 直接下载源码
+* 域名绑定到 /public目录
+* 访问域名进入安装界面
 
 
 ## 环境要求
@@ -40,11 +40,6 @@ location / {
 }
 ```
 
-
-
-## composer方式安装
-
-**PHP 7.3+** and **MySQL 5.6+**, and install [Composer](https://getcomposer.org/).
 
 ```
 composer create-project flarum/flarum . --stability=beta
